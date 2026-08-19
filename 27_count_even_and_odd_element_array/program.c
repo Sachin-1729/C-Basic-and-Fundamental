@@ -32,4 +32,5 @@ int main()
     }
 
     printf("Odd count is %d\nEven Count is %d\n", oddcount ,evencount);
+    free(p);
 }
