@@ -1,0 +1,1 @@
+Refer Program no. 20_armstrong_number to check the exponenetial function.
