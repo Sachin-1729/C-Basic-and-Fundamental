@@ -16,14 +16,17 @@ int * createArray(int n)
 
 }
 
-void reverseTheArray(int *a , int start, int end)
+void reverse(int *a , int start, int end)
 { 
     while(start < end)
     {
         int temp = a[start];
         a[start] = a[end];
         a[end] = temp;
+          start++;
+          end--;
     }
+  
 
 }
 
@@ -40,9 +43,15 @@ int main()
     scanf("%d" , &rotation);
     printf("We have rotated the array by %d position left\n" , rotation);
     int k = (rotation % size);
-    reverse(p , 0 ,k);
-    reverse(p, k+1 , size-1);
-    reverse(p, 0 , size-)
+    reverse(p , 0 ,k-1);
+    reverse(p, k , size-1);
+    reverse(p, 0 , size-1);
+    #define cout printf
+
+    for(int i =0; i < size; i++)
+    {
+        cout("%d " , p[i]);
+    }
     
 
     printf("\n");
