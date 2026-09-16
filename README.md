@@ -28,8 +28,8 @@ The goal of this repository is to build a strong foundation in:
 | 1     | C Fundamentals              | ✅ Completed    |
 | 2     | Functions & Arrays          | ✅ Completed    |
 | 3     | Strings                     | ✅ Completed    |
-| 4     | Pointers                    | 🔄 In Progress |
-| 5     | Structures & Dynamic Memory | 🔄 In Progress |
+| 4     | Pointers                    | ✅ Completed    |
+| 5     | Structures & Dynamic Memory | ✅ Completed    |
 | 6     | Searching & Sorting         | 🔄 In Progress |
 | 7     | Linked Lists                | ⏳ Pending      |
 | 8     | Stack & Queue               | ⏳ Pending      |
