@@ -46,25 +46,29 @@ int main()
     printf("Enter the size of the first array\n");
     int m;
     scanf("%d" , &m);
-    printf("Enter the size of the second array\n");
-    int n;
-    scanf("%d" , &n);
-
     int *p = malloc(m*sizeof(int));
-    int *q = malloc(n*sizeof(int));
-
-    if(p==NULL || q == NULL)
+    if(p == NULL)
     {   
         printf("Memory not available for the program\n");
         return 0;
     }
-
     printf("Enter the first sorted array\n");
     for(int i = 0; i < m; i++)
     {
         scanf("%d" , &p[i]);
     }
-    printf("Enter the second sorted array\n");
+    printf("Enter the size of the second array\n");
+    int n;
+    scanf("%d" , &n);
+    int *q = malloc(n*sizeof(int));
+
+    if(q == NULL)
+    {   
+        printf("Memory not available for the program\n");
+        return 0;
+    }
+
+     printf("Enter the second sorted array\n");
     for(int i = 0; i < n; i++)
     {
         scanf("%d" , &q[i]);
