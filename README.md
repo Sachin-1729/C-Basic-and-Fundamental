@@ -31,8 +31,8 @@ The goal of this repository is to build a strong foundation in:
 | 4     | Pointers                    | ✅ Completed    |
 | 5     | Structures & Dynamic Memory | ✅ Completed    |
 | 6     | Searching & Sorting         | ✅ Completed    |
-| 7     | Linked Lists                | 🔄 In Progress  |
-| 8     | Stack & Queue               | ⏳ Pending      |
+| 7     | Linked Lists                | ✅ Completed    |
+| 8     | Stack & Queue               | 🔄 In Progress  |
 | 9     | Trees & Heaps               | ⏳ Pending      |
 | 10    | Graphs & Algorithms         | ⏳ Pending      |
 | 11    | File Handling               | ⏳ Planned      |
